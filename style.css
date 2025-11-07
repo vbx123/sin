@@ -1,0 +1,83 @@
+body {
+  font-family: "Cairo", sans-serif;
+  background: linear-gradient(135deg, #ffecd2, #fcb69f);
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.topbar {
+  background: #ff6f61;
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.home {
+  padding: 50px 10px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.card {
+  background: white;
+  padding: 20px 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  font-size: 20px;
+  color: #ff6f61;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.quiz-container {
+  padding: 40px 10px;
+}
+
+#options button {
+  display: block;
+  margin: 10px auto;
+  padding: 10px 25px;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  background: #fff;
+  color: #333;
+  cursor: pointer;
+  transition: 0.2s;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+#options button:hover {
+  background: #ff6f61;
+  color: white;
+}
+
+.hidden {
+  display: none;
+}
+
+.btn {
+  background: #ff6f61;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 15px;
+}
+
+.timer {
+  font-size: 22px;
+  margin-bottom: 20px;
+  color: #333;
+}
