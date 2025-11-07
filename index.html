@@ -3,21 +3,29 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>مسابقات المعرفة</title>
-  <link rel="stylesheet" href="style.css" />
+  <title>تطبيق المسابقات</title>
+  <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
-  <header class="topbar">
-    <h1>مسابقات المعرفة</h1>
+  <!-- 🔹 البار العلوي -->
+  <header class="navbar">
+    <h1 class="logo">تطبيق المسابقات</h1>
   </header>
 
-  <main class="home">
-    <h2>اختر نوع المسابقة</h2>
-    <div class="cards">
-      <a href="sin.html" class="card">
-        🧠 مسابقة سِن
+  <!-- 🔹 محتوى الصفحة الرئيسية -->
+  <main class="main-container">
+    <h2 class="section-title">اختر المسابقة</h2>
+
+    <div class="quiz-sections">
+      <a href="country.html" class="quiz-card country">
+        <h3>🌍 أي دولة أنا؟</h3>
+        <p>اختبر معرفتك بالدول والأعلام والمعلومات الجغرافية.</p>
       </a>
+
+      <!-- باقي الأقسام هتضاف لاحقاً -->
     </div>
   </main>
+
+  <script src="js/main.js"></script>
 </body>
 </html>
